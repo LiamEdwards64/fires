@@ -15,8 +15,6 @@ body {
 <style>.embed-container {position: relative; padding-bottom:0; height: 0; max-width: 98vw;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 98vw; height: 80vh;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: 0px;}</style><div class="embed-container"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="California Fire Map Research-Copy" src="//bayschoolsf.maps.arcgis.com/apps/Embed/index.html?webmap=dff90f4879284f57b3c174b5c028db28&extent=-127.2087,38.2212,-115.5413,42.2166&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=dark"></iframe></div>
 <div style="position: absolute; bottom: 5px; color:#c1c4c0;"><i>Evacuation data compiled from county databases by Liam Edwards, updates with those databases</i></div>
 <div id="myModal2" class="modal2">
-
-  <!-- Modal content -->
   <div class="modal-content2">
     <span type="text" value ="No Data" style="float:left;"><strong>Monday:</strong></span>
     <span type="text" value ="No Data" id="mondayLunch" style="float:left;color:white;"></span>
@@ -40,7 +38,7 @@ body {
     <br>
     <br>
     <span class="close2">Close</span>
-  </div>
+</div>
 <style>
     /* The Modal (background) */
 .modal2 {
@@ -103,20 +101,12 @@ body {
     // Get the modal
 var modal2 = document.getElementById("myModal2");
 
-// Get the button that opens the modal
-var btn2 = document.getElementById("toggleButton2");
-
 // Get the <span> element that closes the modal
 var span2 = document.getElementsByClassName("close2")[0];
-// When the user clicks on the button, open the modal
-
 
 // When the user clicks on <span> (x), close the modal
 span2.onclick = function() {
   modal2.style.display = "none";
-}
-btn2.onclick = function() {
-  modal2.style.display = "block"; 
 } 
 </body>
 </html>
