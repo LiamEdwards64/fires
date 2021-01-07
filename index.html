@@ -33,8 +33,7 @@ body {
 .embed-container{
   opacity:1;
   animation-name: mapfade;
-  animation-delay: 4s;
-  animation-duration: 5s;
+  animation-duration: 8s;
 }
 .modal2 {
   position: fixed; 
@@ -109,8 +108,9 @@ span2.onclick = function() {
    100% {margin-top:1%;}
 }
 @keyframes mapfade {
-  from {opacity:0;}
-  to {opacity:1;}
+  0% {opacity:0}
+  50% {opacity:0}
+  100% {opacity:1}
 }
 </style>
 </body>
