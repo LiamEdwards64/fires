@@ -10,10 +10,10 @@ body {
   <title>California Evacuations</title>
 </head>
 <body style="background-color:#03378c;">
-<h1 class=title>California Wildfire Map</h1>
+<h1 class=title>Wildfire Evacuation Map</h1>
 <p style="text-align:center; color:#c1c4c0;"><i>Updated automatically to reflect current evacuation orders and warnings across Northern California</i></p>
 <style>.embed-container {position: relative; padding-bottom:0; height: 0; max-width: 98vw;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 98vw; height: 80vh;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: 0px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="California Fire Map Research – Live Version" src="//bayschoolsf.maps.arcgis.com/apps/Embed/index.html?webmap=dff90f4879284f57b3c174b5c028db28&extent=-124.1471,37.0296,-112.0182,42.8203&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legend=true&disable_scroll=false&theme=dark"></iframe></div>
-<div style="position: absolute; bottom: 5px; color:#c1c4c0;"><i>Evacuation data compiled from county databases by Liam Edwards, updates with those databases</i></div>
+<div class = "credits" style="position: absolute; bottom: 5px; color:#c1c4c0;"><i>Evacuation data compiled from county databases by Liam Edwards, updates with those databases</i></div>
 <div id="myModal2" class="modal2">
 <div class="modal-content2">
 <p type="text" value ="No Data" style="float:left;"><strong> Welcome! This map is a prototype for now – the data shown is not necessarily accurate. Please don't use it to inform any decisions you might make about evacuating.</strong></p>
@@ -30,6 +30,11 @@ body {
   animation-duration: 4s;
 }
 .embed-container{
+  opacity:1;
+  animation-name: mapfade;
+  animation-duration: 8s;
+}
+.credits{
   opacity:1;
   animation-name: mapfade;
   animation-duration: 8s;
